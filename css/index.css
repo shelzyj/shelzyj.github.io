@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    background: linear-gradient(180deg, rgba(15, 18, 23) 0%, rgb(10, 10, 10) 50%, rgba(15, 18, 23) 100%);
+}
+
+.main-case{
+    margin: 25% 0%;
+}
+
+.text{
+    font-family: "Akzidenz-Grotesk Pro Bold Ext";
+    font-size: 57.33px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.40) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.button-case{
+    font-family: "Akzidenz-Grotesk Pro Bold Ext";
+    font-size: 16px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.40) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 16px 16px;
+}
+
+.button{
+    background-color:rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 16px;
+    margin: 8px 8px;
+    transition: 0.72s;
+}
+
+.button:hover{
+    background-color:rgba(108, 133, 182, 0.07);
+    border: 1px solid rgba(108, 133, 182, 0.5);
+    transform: scale(1.08);
+    transition: 0.16s;
+}
+
+.icons-case{
+    font-family: "Akzidenz-Grotesk Pro Bold Ext";
+    font-size: 16px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+.icons{
+    color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    margin: 0px 8px;
+    transition: 0.72s;
+}
+
+.icons:hover{
+    color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.08);
+    transition: 0.16s;
+}
+
