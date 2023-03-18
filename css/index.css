@@ -21,14 +21,10 @@ body{
 .button-case{
     font-family: "Akzidenz-Grotesk Pro Bold Ext";
     font-size: 16px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.40) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    padding: 16px 16px;
 }
 
 .button{
+    color: rgba(255, 255, 255, 0.2);
     background-color:rgba(255, 255, 255, 0.04);
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -40,6 +36,7 @@ body{
 }
 
 .button:hover{
+    color: rgba(255, 255, 255, 0.8);
     background-color:rgba(108, 133, 182, 0.07);
     border: 1px solid rgba(108, 133, 182, 0.5);
     transform: scale(1.08);
